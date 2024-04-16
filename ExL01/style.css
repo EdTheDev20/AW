@@ -20,7 +20,6 @@
   height: 380px;
 }
 .home-testimonial-bottom {
-  background-color: rgba(var(--bs-tertiary-bg-rgb));
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -76,9 +75,14 @@
   color: #6c83a2;
 }
 footer{
-  width: 50%;
-  margin-left:13%;
-  background-color: rgba(var())
+  height: 100%;
+  width: 100%;
+  margin-left:15%;
+  background: #042331;
+}
+
+.carousel-inner {
+  background-color: rgba(209, 212, 17, 0.1);
 }
 
 .sidebar {
@@ -89,7 +93,14 @@ footer{
   height: 100%;
   background: #042331;
 }
-
+footer ul a {
+  display:block;
+  text-decoration:none;
+  color:white;
+  font-size:13px;
+  box-sizing: border-box;
+  transition:0.4s;
+}
 .sidebar ul a {
   display: block;
   height: 100%;
@@ -104,6 +115,6 @@ footer{
   transition: 0.4s;
 }
 
-ul li:hover a {
+.sidebar ul li:hover a {
   padding-left: 25px;
 }
